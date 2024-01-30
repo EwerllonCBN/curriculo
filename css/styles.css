@@ -1,0 +1,112 @@
+body,
+h1,
+h2,
+h3,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 10rem;
+  background-color: #57acd9;
+}
+
+.image-class {
+  display: flex;
+  justify-content: center;
+  margin-top: -100px;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #000000;
+  padding-bottom: 1rem;
+}
+
+.left-body {
+  margin-top: 10px;
+  border-top: 2px solid #ababab;
+  border-width: 2px;
+  margin: 1rem;
+}
+
+.title1 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
+  color: #ababab;
+  padding-bottom: 1rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+.title1::-webkit-scrollbar-thumb {
+  background: #fb5;
+  border-left: 4px solid #faf6ed;
+  border-right: 4px solid #faf6ed;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.text1 {
+  text-decoration: underline;
+  font-weight: 600;
+}
+.text2 {
+  margin-left: 1rem;
+  font-weight: 500;
+}
+
+.content {
+  display: flex;
+
+  width: auto;
+  height: 100%;
+  justify-content: space-evenly;
+  padding: 2rem;
+  border-top: 1px solid;
+}
+.container-global {
+  display: flex;
+  flex-direction: column;
+}
+.content-info {
+  padding-bottom: 1rem;
+}
+.content-left {
+  margin: 1rem;
+}
+.content-right {
+  margin: 1rem;
+}
+
+.content-border {
+  height: 100%;
+  border: 1px solid;
+  color: #ababab;
+  margin: 1rem;
+}
+
+.title-academy {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
